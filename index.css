@@ -23,7 +23,7 @@ body{
      padding: 0px 10px;
      
    } */
-   #content1
+   .content
    {
     display:flex;
     flex-direction: column;
@@ -31,7 +31,7 @@ body{
     align-items: center;
     background-color: rgb(39, 39, 40);
    }
-   #content1>div{
+   .content>div{
     
     /* width:75%; */
     /* border:1px red solid; */
@@ -85,6 +85,20 @@ body{
     gap:3%;
     padding:auto;
    } */
+   #box1>div
+   {
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,1fr);
+    gap:3%;
+    padding:auto;
+   }
+   #box2{
+    width:80%;
+   }
+   #box5{
+    width:80%;
+   }
    #footer
    {
     display: flex;
