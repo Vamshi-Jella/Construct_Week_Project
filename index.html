@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,8 +27,21 @@
                 </li>
                 <li class="nav-item">
                     <form  role="search" style="width:500px">
-                        <input class="form-control me-2" type="search" placeholder="What are you looking for ?" aria-label="Search">
-                        
+                        <!-- <input class="form-control me-2" type="search" placeholder="What are you looking for ?" aria-label="Search"> -->
+                        <div class="input-group mb-3">
+                          <input type="search" class="form-control" placeholder="What are you looking for ?" aria-label="Search" aria-describedby="button-addon2">
+                          <button class="btn btn-outline-secondary" type="button" id="button-addon2" style="background-color: white;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                          </svg>Search</button>
+                        </div>
+                        <!-- <nav class="navbar bg-body-tertiary">
+                          <div class="container-fluid">
+                            <form class="d-flex" role="search">
+                              <input class="form-control me-2" type="What are you looking for ?" aria-label="Search">
+                              <button class="btn btn-outline-success" type="submit" style="background-color: white;">Search</button>
+                            </form>
+                          </div>
+                        </nav> -->
                       </form>
                 </li>
                 <li class="nav-item">
@@ -176,23 +189,43 @@
         <div id="carouselExampleIndicators1" class="carousel slide carousel-fade">
          
             <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="3" aria-label="Slide 4"></button>
             </div>
             <div class="carousel-inner">
-              <div class="carousel-item active">
+              <div class="carousel-item active" id="m_slider1">
                 <img src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1714743524/Croma%20Assets/CMS/LP%20Page%20Banners/2024/HP%20Widgets/May/Blog%20Banners/Desktop/HP_Blog_1_3May2023_rduyyl.png" class="d-block w-100" alt="products">
+                <div class="details">
+                  <h1><strong>Here’s how ChatGPT helped me plan a vacation to Japan</strong></h1>
+                  <br><h3><strong>Have AI tools reached a point where they can take care of your summer travels all by themselves? Read on to find out!</strong></h3>
+                  <br><button type="button"  class="btn btn-primary btn-lg" id="readnow1"><strong>Read Now</strong></button>
+                </div>
               </div>
               <div class="carousel-item">
                 <img src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1714743528/Croma%20Assets/CMS/LP%20Page%20Banners/2024/HP%20Widgets/May/Blog%20Banners/Desktop/HP_Blog_2_3May2023_f9jklv.png" class="d-block w-100" alt="products">
+                <div class="details">
+                  <h1><strong>Important guidelines to keep in mind during AC installation</strong></h1>
+                  <br><h3><strong>Make sure your AC is setup and installed properly for a worry-free experience</strong></h3>
+                  <br><button type="button"  class="btn btn-primary btn-lg" id="readnow2"><strong>Read Now</strong></button>
+                </div>
               </div>
               <div class="carousel-item">
                 <img src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1714743606/Croma%20Assets/CMS/LP%20Page%20Banners/2024/HP%20Widgets/May/Blog%20Banners/Desktop/HP_Blog_3_3May2023_dv2r5l.png" class="d-block w-100" alt="products">
+                <div class="details">
+                  <h1><strong>How to protect your appliances from overheating during a heatwave</strong></h1>
+                  <br><h3><strong>Keep your home and personal appliances cool with these tips</strong></h3>
+                  <br><button type="button"  class="btn btn-primary btn-lg" id="readnow3"><strong>Read Now</strong></button>
+                </div>
               </div>
               <div class="carousel-item">
                 <img src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1714743701/Croma%20Assets/CMS/LP%20Page%20Banners/2024/HP%20Widgets/May/Blog%20Banners/Desktop/HP_Blog_4_3May2023_wcpjco.png" class="d-block w-100" alt="products">
+                <div class="details">
+                  <h1><strong>How NVIDIA is using AI so you can game better</strong></h1>
+                  <br><h3><strong>RTX GPUs are powering AI upscaling, higher framerates and more</strong></h3>
+                  <br><button type="button"  class="btn btn-primary btn-lg" id="readnow4"><strong>Read Now</strong></button>
+                </div>
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
@@ -278,7 +311,14 @@
     <div id="footer">
         <div id="footer1">
            <p><strong>CONNECT WITH US</strong></p> 
-           <input class="form-control me-2" type="search" placeholder="Enter Email ID" aria-label="Search"><br>
+           <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Enter Email ID" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2" style="background-color: white;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+            </svg></button>
+          </div>
+           <!-- <input class="form-control me-2" type="search" placeholder="Enter Email ID" aria-label="Search"><br> -->
+           <br>
            <div id="logos">
             
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
