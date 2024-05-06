@@ -323,7 +323,7 @@ body{
     #footer1
     {
       /* margin-top:100px; */
-      border:1px red solid;
+      /* border:1px red solid; */
     }
    }
    @media all and (min-width:0px) and (max-width:767px)
