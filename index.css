@@ -326,7 +326,7 @@ body{
       /* border:1px red solid; */
     }
    }
-   @media all and (min-width:0px) and (max-width:767px)
+   @media all and (min-width:0px) and (max-width:768px)
    {
     #footer
     {
