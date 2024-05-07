@@ -193,6 +193,12 @@ body{
     
     width:100%;
    }
+   li:hover{
+    color:dodgerblue;
+   }
+   button:active{
+    color:dodgerblue;
+   }
    #footer1>:nth-last-child(1)
    {
     padding-top: 5%;
@@ -349,3 +355,4 @@ body{
       border-left: 0px white solid;
     }
    }
+
