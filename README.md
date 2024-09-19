@@ -1,4 +1,4 @@
-# Construct_Week_Project
+Croma Clone Education Project
 I have created nav bar which includes croma logo, menu list , search bar, profile logo, cart logo
 
 
